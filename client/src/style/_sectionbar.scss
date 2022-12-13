@@ -1,0 +1,31 @@
+.section-bar {
+  width: 100%;
+  height: 60px;
+  border-top: none;
+  border-bottom: 1px solid rgba(179, 179, 179, 0.428);
+  display: flex;
+}
+
+.section-bar span  {
+  margin-left: 40px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.latest-news {
+  width: 25%;
+  border-right: 1px solid rgba(179, 179, 179, 0.428);
+  display: flex;
+  align-items: center;
+}
+.featured {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.key-metrics {
+  width: 25%;
+  border-left: 1px solid rgba(179, 179, 179, 0.428);
+  display: flex;
+  align-items: center;
+}
