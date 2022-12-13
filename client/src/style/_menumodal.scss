@@ -1,14 +1,14 @@
 .menu-modal{
   width: 400px;
-  height: 0px;
+  height: 120px;
   border: none;
   // border-radius: 20px;
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.317);
   position: fixed;
-  top: 15%;
-  left: 0%;
+  top: 32%;
+  left: 15%;
   z-index: -2;
-  transform: translate(0%, 0%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
   transition:  300ms ease-in-out;
   background: white;
   display: flex;
@@ -21,8 +21,6 @@
 }
 .active-menu-modal{
   opacity: 1;
-  width: 400px;
-  height: 120px;
   z-index: 10;
 }
 
